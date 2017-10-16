@@ -1,0 +1,49 @@
+﻿
+               http://localhost/itceg/public/adminpanel
+
+<div class="box-body">
+            <h3 class="box-title">عرض المنتجات</h3>
+            
+              <table id="example2" class="table table-bordered table-hover pull-right">
+                <thead>
+                <tr>
+                  <th>تعديل</th>
+                  <th>التفاصيل</th>
+                  <th>عنوان الخدمه</th>
+                  <th>رقم الخدمه</th>
+                </tr>
+                </thead>
+                <tbody>
+             
+                <tr>
+                  <td><a href="content/{{$content->id}}/edit" class="btn btn-success">تعديل</a></td>
+                  <td>{!! $content->content1 !!}</td>
+                  <td>{{$content->title1}}</td>
+                  <td>1</td> 
+                </tr>
+
+                <tr>
+                  <td><a href="content/{{$content->id}}/edit" class="btn btn-success">تعديل</a></td>
+                  <td>{!! $content->content2 !!}</td>
+                  <td>{{$content->title2}}</td>
+                  <td>2</td> 
+                </tr>
+
+                <tr>
+                  <td><a href="content/{{$content->id}}/edit" class="btn btn-success">تعديل</a></td>
+                  <td>{!! $content->content3 !!}</td>
+                  <td>{{$content->title3}}</td>
+                  <td>3</td> 
+                </tr>
+
+                <tr>
+                  <td><a href="content/{{$content->id}}/edit" class="btn btn-success">تعديل</a></td>
+                  <td>{!! $content->content4 !!}</td>
+                  <td>{{$content->title4}}</td>
+                  <td>4</td> 
+                </tr>
+            
+               
+                </tfoot>
+              </table>
+            </div>
